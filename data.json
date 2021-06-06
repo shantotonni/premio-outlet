@@ -1,0 +1,53 @@
+[
+    
+    {
+      "model": "premioapp.region",
+      "pk": 1,
+      "fields": {
+        "name": "RE001",
+        "code": "RE001"
+      }
+    },
+    {
+      "model": "premioapp.zone",
+      "pk": 1,
+      "fields": {
+        "region": 1,
+        "name": "Dinajpur",
+        "code": "SZ001"
+      }
+    },
+    {
+      "model": "premioapp.base",
+      "pk": 1,
+      "fields": {
+        "zone": 1,
+        "name": "Dinajpur",
+        "code": "CSB010101"
+      }
+    },
+    {
+      "model": "premioapp.market",
+      "pk": 1,
+      "fields": {
+        "base": 1,
+        "name": "Amtoli"
+      }
+    },
+    {
+      "model": "premioapp.outlettype",
+      "pk": 1,
+      "fields": {
+        "name": "FH",
+        "code": "FH"
+      }
+    },
+    {
+      "model": "premioapp.category",
+      "pk": 1,
+      "fields": {
+        "name": "A",
+        "code": "A"
+      }
+    }
+  ]
